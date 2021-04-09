@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  display: flex;
+  margin: 50px auto;
+  width: 960px;
+}
+
+section {
+  background-color: #eeeeee;
+  width: 300px;
+  padding: 10px 10px;
+  position: relative;
+}
+
+section:nth-child(2) {
+  margin: 0 30px;
+}
+
+.step {
+  background-color: #ff9a4b;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-1 {
+  background-image: url(../../イメージ/img9/flow01.png);
+}
+
+.image-2 {
+  background-image: url(../../イメージ/img9/flow02.png);
+}
+
+.image-3 {
+  background-image: url(../../イメージ/img9/flow03.png);
+}
+
+.image-1,
+.image-2,
+.image-3 {
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+h3 {
+  margin: 15px 0 5px;
+}
+
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+}
